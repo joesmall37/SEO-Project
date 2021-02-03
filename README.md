@@ -1,3 +1,3 @@
 # SEO-Project
 SEO-Project
-Refrector the code of a website.
+Refractor the code of a website.
