@@ -74,7 +74,10 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/* children elements should be below parents elements */
+/* children elements should be below parents elements. This makes the CSS code more readable for the developer.   */
+
+/* these have been replaced with one section for "dry" coding"
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -102,6 +105,26 @@ p {
     color: #ffffff;
 }
 
+*/
+
+.content .section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+.content .section img {
+    max-height: 200px;
+}
+
+.content .section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* These have been replaced with one section as the code is the same for "dry" coding methods"
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -128,6 +151,10 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+*/
+
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
