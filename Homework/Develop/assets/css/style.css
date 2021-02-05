@@ -7,7 +7,7 @@
 body {
   background-color: #d9dcd6;
 }
-
+/* styling for header tag group */
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -47,10 +47,8 @@ a {
   text-decoration: none;
 }
 
-p {
-  font-size: 16px;
-}
 
+/* styling for hero div */
 .hero {
   height: 800px;
   width: 100%;
@@ -59,7 +57,15 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/* styling for main tag group */
+main {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+p {
+  font-size: 16px;
+}
 .float-left {
   float: left;
   margin-right: 25px;
@@ -69,11 +75,7 @@ p {
   float: right;
   margin-left: 25px;
 }
-main {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
+
 /*
 .content {
   width: 75%;
@@ -113,7 +115,7 @@ main {
 }
 
 */
-
+ /* styling for section tags */
 section {
   margin-bottom: 20px;
   padding: 50px;
