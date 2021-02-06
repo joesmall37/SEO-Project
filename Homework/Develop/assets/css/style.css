@@ -7,7 +7,7 @@
 body {
   background-color: #d9dcd6;
 }
-/* styling for header tag group */
+/* styling for header tag group. Which includes the headers at the top of the page*/
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -48,7 +48,7 @@ a {
 }
 
 
-/* styling for hero div */
+/* styling for hero div, including the main picture of the website. */
 .hero {
   height: 800px;
   width: 100%;
@@ -57,7 +57,7 @@ a {
   background-size: cover;
   background-position: center;
 }
-/* styling for main tag group */
+/* styling for main tag, which includes the main portion of the website. */
 main {
   width: 75%;
   display: inline-block;
@@ -76,46 +76,7 @@ p {
   margin-left: 25px;
 }
 
-/*
-.content {
-  width: 75%;
-  display: inline-block;
-  margin-left: 20px;
-}
-*/
-/* children elements should be below parents elements. This makes the CSS code more readable for the developer.   */
-
-/* these have been replaced with one section for "dry" coding"
-
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-*/
- /* styling for section tags */
+ /* styling for section tags which style the section of the website - containing desccriptions and images of Search-Engine-Optimization, Online-Reputation-Managment, and Social-Media-Marketing */
 section {
   margin-bottom: 20px;
   padding: 50px;
@@ -132,37 +93,10 @@ section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/* Styling for section tags ends. */
 
-/* These have been replaced with one section as the code is the same for "dry" coding methods"
-.search-engine-optimization img {
-    max-height: 200px;
-}
 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-*/
-
+/* styling for benefits tag - styles the bottom right corner of the website, which explains the benefits of */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -189,57 +123,7 @@ section h2 {
   margin: 10px auto;
   max-width: 150px;
 }
-
-/*
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
-
+/* styling for the footer section of the page */
 footer {
   padding: 30px;
   clear: both;
